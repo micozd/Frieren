@@ -1,7 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
+
+
 body{
     margin:0; 
     padding:0;
     background-color: rgba(189, 251, 255, 0.8);
+    
 }
 header{
     
@@ -9,16 +14,23 @@ header{
     background-color: white;
     border-radius: 20px 20px 0px 0px;
     max-width: 800px;
+    padding-top: 20px;
+    
 }
-header table{
-    width: 100%;
-    border-radius: 20px 20px 0px 0px;
-    max-width: 800px;
-    text-align: center;
 
-}
 header img {
     border-radius: 50%;
     border: 10px solid rgba(189, 251, 255, 0.8);
    
+}
+
+header h1{
+    font-family: "Metamorphous", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+    color: white;
+    -webkit-text-stroke : 2px rgba(11, 34, 35, 0.925);
+    text-shadow: 2px 2px 4px black;
+    margin: 10 0 10 0;
 }
