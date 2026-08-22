@@ -18,9 +18,16 @@ header{
     
 }
 
-header img {
+header .pfp {
     border-radius: 50%;
-    border: 10px solid rgba(189, 251, 255, 0.8);
+    border: 10px solid rgb(189, 251, 255);
+    width: 200px;
+    height: 200px;
+    background-image: url('./../img/frieren_header.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
    
 }
 
