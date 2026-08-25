@@ -107,3 +107,14 @@ figcaption{
     padding-right: 10px;
     font-size: 15px;
 }
+
+.party{
+    width: 700px;
+    height: 400px;
+    background-image: url('./../img/frieren_parties.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 30px;
+}
