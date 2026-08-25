@@ -118,3 +118,23 @@ figcaption{
     margin: 0 auto;
     padding: 30px;
 }
+
+.party_members{
+    text-align: left;
+    font-family: "Metamorphous", serif;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+h3{
+    margin: 0
+}
+
+a:visited{
+    color: teal
+}
+
+a:link{
+    color:  rgba(141, 229, 235, 0.994)
+}
