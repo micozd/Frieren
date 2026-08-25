@@ -47,9 +47,10 @@ main{
     border-radius: 0px 0px 20px 20px;
     padding-bottom: 20px;
     
+    
 }
 
-body h2{
+h2{
     font-family: "Metamorphous", serif;
     font-weight: 400;
     font-style: normal;
@@ -82,14 +83,17 @@ body h2{
   
 }
 
-.manga {
-    width: 360px;
-    height: 500px;
-    background-image: url('./../img/frieren_vol1.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    margin: 0 auto;
+main img {
+    max-width: 100%;
+}
+
+.figcaption_manga{
+    text-align: left;
+    font-family: "Rubik", serif;
+    font-weight: italic;
+    padding-left: 20px;
+    font-size: 10px;
+    color: gray;
 }
 
 figcaption{
@@ -112,16 +116,7 @@ figcaption{
 
 }
 
-.party{
-    width: 700px;
-    height: 400px;
-    background-image: url('./../img/frieren_parties.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    margin: 0 auto;
-    padding: 30px;
-}
+
 
 .party_members{
     text-align: left;
@@ -160,4 +155,40 @@ footer a:visited{
 
 footer a:link{
     color: blue
+}
+
+@media (max-width: 600px) {
+    .manga_tab{
+        display: none;
+    }
+    header h1{
+        font-size: 40px;
+         -webkit-text-stroke : 1px rgba(11, 34, 35, 0.925);
+        text-shadow: 1px 1px 2px black;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .about_cat{
+        font-size: 12px;
+    }
+    .about_info{
+        font-size: 12px;
+    }
+    .bio_text{
+        font-size: 12px;
+    }
+    h3{
+        font-size: 12px;
+    }
+    .party_members{
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width:840px) {
+    header, main{
+        border-radius: 0px 0px 0px 0px;
+    }
 }
