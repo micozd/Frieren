@@ -44,6 +44,8 @@ main{
     max-width: 800px;
     margin: 0 auto;
     background-color: white;
+    border-radius: 0px 0px 20px 20px;
+    padding-bottom: 20px;
     
 }
 
@@ -138,4 +140,21 @@ a:visited{
 
 a:link{
     color:  rgba(141, 229, 235, 0.994)
+}
+
+footer{
+    max-width: 800px;
+    font-family: "Rubik", serif;
+    font-size: 10px;
+    margin: 0 auto;
+    background-color: rgba(189, 251, 255, 0.8);
+    padding: 20 0 10 0;
+}
+
+footer a:visited{
+    color:indigo
+}
+
+footer a:link{
+    color: blue
 }
