@@ -108,6 +108,8 @@ figcaption{
     padding-left: 10px;
     padding-right: 10px;
     font-size: 15px;
+    margin-left: 10px;
+
 }
 
 .party{
@@ -128,6 +130,7 @@ figcaption{
     padding-left: 10px;
     padding-right: 10px;
     font-size: 15px;
+    margin-left: 10px;
 }
 h3{
     margin: 0;
